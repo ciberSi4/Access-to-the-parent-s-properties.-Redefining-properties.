@@ -32,7 +32,7 @@ class Vehicle:
             print(f"Нельзя сменить цвет на {new_color}")
 
 class Sedan(Vehicle):
-    pass
+    __PASSENGERS_LIMIT = 5
 
 
 
